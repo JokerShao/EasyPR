@@ -1,4 +1,7 @@
 # joker configurations:
+# build directory
+build
+
 # YCM configure
 .ycm_extra_conf.py
 

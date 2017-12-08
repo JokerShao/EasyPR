@@ -3,16 +3,7 @@
 
 // 2017-08-28 joker change it for build by opencv3.3.0-rc
 // #define CV_VERSION_THREE_ZERO
-// #define CV_VERSION_THREE_TWO
-#include <stdlib.h>
-#include <opencv2/core/version.hpp>
-#define CV_VERSION_ID       CVAUX_STR(CV_MAJOR_VERSION) CVAUX_STR(CV_MINOR_VERSION) CVAUX_STR(CV_SUBMINOR_VERSION)
-#define CV_VERSION_JUDGE \
-	if (atoi(CV_VERSION_ID) - 320 >= 0){ \
-		#define CV_VERSION_THREE_TWO \
-	else \
-		#define CV_VERSION_THREE_ZERO \
-	}
+#define CV_VERSION_THREE_TWO
 
 namespace easypr {
 
